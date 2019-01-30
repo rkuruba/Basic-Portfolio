@@ -1,0 +1,57 @@
+<!-- CSS Stylesheets With Relative Paths -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Stylesheets With Relative Paths</title>
+
+  <!-- This line is money! It points your HTML to the CSS file. -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <!-- Notice the "relative" pathway? It matches a file inside our current directory's "assets" folder. Open it to see our style rules. -->
+</head>
+
+<body>
+
+  <header>
+    <h1>Ramesh K</h1>
+    <section id="headerlinks">
+    <a href="index.html">About    |</a>
+    <a href="portfolio.html">Portfolio    |</a>
+    <a href="contact.html">Contact</a>
+    </section>
+  </header>
+
+  <div class="container">
+    <section id="main-bio">
+
+      <h2>Contact</h2>
+    <hr/>
+    <form action="/action_page.php">
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+  
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" value="Submit">
+    </form>  
+    </section>
+
+  </div>
+  <section id="footer">
+    <p>@copyright</p>
+  </section>
+</body>
+
+</html>
