@@ -63,13 +63,18 @@ a {
   background-color: #ffffff;
   color: #777777;
 }
-
+.p1{
+  position: relative;
+  bottom: 75px;
+  border-style: solid;
+  border-color: #ffffff;
+  background-color: #4aaaa5;
+  width: 150px;
+}
 .container {
-
   width: 960px;
   margin: auto;
   position: center;
-
 }
 
 #main-bio,
@@ -91,7 +96,7 @@ a {
 
 #bio-image {
   width: 200px;
-  height: 200px;
+  height: 450px;
   margin-right: 20px;
 }
 
@@ -109,7 +114,7 @@ input[type=text], select, textarea {
 
 /* Style the submit button with a specific background color etc */
 input[type=submit] {
-  background-color: #4CAF50;
+  background-color: #4aaaa5;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -119,14 +124,27 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #24524f;
 }
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 
 img {
   border: 1px solid #ddd; /* Gray border */
   border-radius: 4px;  /* Rounded border */
   padding: 5px; /* Some padding */
   width: 150px; /* Set a small width */
+  left: 0px;
+  top: 0px;
 }
 
 /* Add a hover effect (blue shadow) */
